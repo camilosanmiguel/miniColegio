@@ -1,1 +1,22 @@
-<p>register-class works!</p>
+<div class="bg-component">
+    <div class="form">
+        <mat-card class="card">
+            <mat-card-title>Register Class</mat-card-title>
+            <mat-card-content>
+                <div class="container">
+                    <mat-form-field>
+                        <input [(ngModel)]="registerData.name"
+                        type="text"
+                        matInput
+                        placeholder="Name"
+                        required
+                        >
+                    </mat-form-field>
+                </div>
+            </mat-card-content>
+            <mat-card-actions>
+                <button mat-button class="button" >Register</button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+</div>

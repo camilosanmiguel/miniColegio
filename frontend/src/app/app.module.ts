@@ -36,6 +36,7 @@ import {MatInputModule} from '@angular/material/input';
     AppRoutingModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
+    FormsModule,
     ReactiveFormsModule,
     MatToolbarModule,
     MatButtonModule,
