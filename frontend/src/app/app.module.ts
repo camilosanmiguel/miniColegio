@@ -14,6 +14,12 @@ import { RegisterClassComponent } from './home/register-class/register-class.com
 import { RegisterSubjectComponent } from './home/register-subject/register-subject.component';
 import { HomeComponent } from './home/home/home.component';
 
+import {MatToolbarModule} from '@angular/material/toolbar'; 
+import {MatButtonModule} from '@angular/material/button'; 
+import {MatFormFieldModule} from '@angular/material/form-field'; 
+import {MatCardModule} from '@angular/material/card'; 
+import {MatInputModule} from '@angular/material/input'; 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +36,12 @@ import { HomeComponent } from './home/home/home.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatFormFieldModule,
+    MatCardModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
